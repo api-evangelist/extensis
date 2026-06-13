@@ -1,0 +1,50 @@
+name: Extensis Plans and Pricing
+description: Pricing plans for Extensis Connect font and digital asset management platform
+url: https://www.extensis.com/
+plans:
+
+  - name: Connect
+    description: Font and creative asset management with access to Monotype font library
+    url: https://www.extensis.com/
+    price: 150.00
+    unit: per seat per year
+    rate_limits: []
+    features:
+      - Font license management
+      - Creative asset organization
+      - 100 GB storage
+      - Access to 250,000+ Monotype fonts
+      - Cloud sync across devices
+      - Desktop font manager app
+      - Collaboration tools
+      - Dropbox, OneDrive, Box integrations
+
+  - name: Connect + Insight
+    description: Full Connect plan plus creative risk scanning and compliance features
+    url: https://www.extensis.com/
+    price: 200.00
+    unit: per seat per year
+    rate_limits: []
+    features:
+      - Everything in Connect
+      - Project risk scanning
+      - Font usage compliance monitoring
+      - Creative Intelligence Suite access
+      - Data Assist feature
+      - Risk reporting
+
+  - name: Portfolio (Enterprise)
+    description: On-premises digital asset management server with REST API add-on
+    url: https://www.extensis.com/portfolio
+    price: contact
+    unit: contact for pricing
+    rate_limits: []
+    features:
+      - Self-hosted DAM catalog
+      - REST API (licensed add-on)
+      - Server-side scripting
+      - MrSID SDK support
+      - Media processing workflows
+      - Metadata management
+      - eCommerce and CMS integrations
+      - Custom workflow automation

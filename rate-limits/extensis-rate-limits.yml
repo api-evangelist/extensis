@@ -1,0 +1,25 @@
+name: Extensis Rate Limits
+description: Rate limiting policies for the Extensis Portfolio REST API
+url: https://www.extensis.com/support/developers
+rate_limits:
+
+  - name: Portfolio REST API
+    description: Rate limits for the Portfolio Server REST API; specific limits are not publicly documented and may vary by server configuration and license tier
+    url: https://doc.extensis.com/api/portfolio/rest/index.html
+    limits: []
+    notes:
+      - Rate limits for the Portfolio REST API are not publicly documented
+      - Limits may depend on server hardware and configuration
+      - The REST API is available as a licensed add-on to Portfolio Server
+      - Authentication uses API tokens prefixed with "TOKEN-" created in Portfolio Admin
+      - Contact Extensis Technical Support for enterprise rate limit guidance
+
+  - name: Connect Platform
+    description: Connect SaaS platform API access policies; specific rate limits are not publicly disclosed
+    url: https://www.extensis.com/support/developers
+    limits: []
+    notes:
+      - Connect platform API rate limits are not publicly documented
+      - Session timeout for idle sessions is 30 minutes on buy.extensis.com and connect.extensis.com
+      - Desktop app sessions expire after 30 days
+      - SSO support via Azure AD and Okta (Auth0-based)

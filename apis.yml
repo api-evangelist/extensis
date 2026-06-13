@@ -1,0 +1,84 @@
+aid: extensis
+name: Extensis
+description: Digital asset and font management platform with a REST API for organizing and distributing creative assets, managing font licenses, and integrating with design workflows
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: '0.19'
+tags:
+  - Digital Asset Management
+  - Font Management
+  - Creative Assets
+  - Font Licensing
+  - Design Workflows
+  - DAM
+apis:
+
+  - name: Extensis Portfolio REST API
+    description: REST API for integrating Portfolio DAM catalogs, asset metadata, and media processing into business systems, custom workflows, and web infrastructures. Available as a licensed add-on to Portfolio Server.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.extensis.com/support/developers
+    baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
+    tags:
+      - Digital Asset Management
+      - Portfolio
+      - Media Processing
+      - REST API
+    properties:
+      - type: Documentation
+        url: https://www.extensis.com/support/developers
+      - type: OpenAPI
+        url: https://doc.extensis.com/api/portfolio/rest/index.html
+      - type: ScriptingDocumentation
+        url: https://doc.extensis.com/api/portfolio-scripting/script-interface/script-interface/index.html
+      - type: GitHubRepository
+        url: https://github.com/wags/PortfolioRestToken
+      - type: GitHubRepository
+        url: https://github.com/tomasc/extensis_portfolio
+
+common:
+
+  - type: Website
+    url: https://www.extensis.com/
+
+  - type: Documentation
+    url: https://www.extensis.com/support/developers
+
+  - type: GitHubOrg
+    url: https://github.com/wags
+
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/extensis/
+
+  - type: Blog
+    url: https://www.extensis.com/blog
+
+  - type: Pricing
+    url: https://www.extensis.com/
+
+  - type: StatusPage
+    url: https://status.extensis.com/
+
+  - type: X
+    url: https://twitter.com/extensis
+
+  - type: Newsroom
+    url: https://www.extensis.com/newsroom
+
+  - type: Support
+    url: https://www.extensis.com/help-and-support
+
+  - type: Plans
+    url: plans/extensis-plans-pricing.yml
+
+  - type: RateLimits
+    url: rate-limits/extensis-rate-limits.yml
+
+  - type: FinOps
+    url: finops/extensis-finops.yml
+
+maintainers:
+
+  - FN: Kin Lane
+    email: kin@apievangelist.com

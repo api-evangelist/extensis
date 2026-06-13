@@ -1,0 +1,43 @@
+name: Extensis FinOps
+description: Financial operations and cost management guidance for Extensis API and platform usage
+url: https://www.extensis.com/
+finops:
+
+  - name: Connect Seat Licensing
+    description: Per-seat annual subscription model for Connect and Connect + Insight plans
+    url: https://www.extensis.com/
+    guidance:
+      - Connect plan starts at $150 per seat per year (~$12.50/seat/month)
+      - Connect + Insight plan is $200 per seat per year (~$16.67/seat/month)
+      - A 15-day free trial is available before committing
+      - Free interactive demo available to evaluate before purchase
+      - Seats are assigned per user; optimize by auditing active users regularly
+      - Unused seats should be deactivated to reduce licensing costs
+
+  - name: Portfolio API Add-On
+    description: The Portfolio REST API is a licensed add-on to Portfolio Server; contact Extensis for pricing
+    url: https://www.extensis.com/portfolio
+    guidance:
+      - Portfolio REST API is not included in base Portfolio Server license
+      - API access requires a separate licensed add-on
+      - On-premises deployment means infrastructure costs are borne by the customer
+      - MrSID SDK is free for development use but may require commercial license for production
+      - Contact Extensis sales for enterprise and volume pricing
+
+  - name: Storage Costs
+    description: Storage considerations for Connect SaaS plans
+    url: https://www.extensis.com/
+    guidance:
+      - Connect plan includes 100 GB of cloud storage per account
+      - Monitor storage usage to avoid overages
+      - Integrate with Dropbox, OneDrive, or Box to offload asset storage costs
+      - Archive or remove unused assets to stay within storage limits
+
+  - name: Font License Compliance
+    description: Using Extensis Connect + Insight to manage font license costs and compliance risk
+    url: https://www.extensis.com/
+    guidance:
+      - Connect + Insight ($200/seat/year) includes project risk scanning
+      - Proactively scanning for unlicensed font usage can prevent costly legal fees
+      - Data Assist feature helps audit font usage across creative projects
+      - Centralizing font management avoids duplicate license purchases
