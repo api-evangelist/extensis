@@ -1,0 +1,54 @@
+{
+  "vocabulary": {
+    "name": "Extensis Portfolio API Vocabulary",
+    "description": "Domain terms used in the Extensis Portfolio REST API for digital asset management.",
+    "version": "1.0.0",
+    "terms": [
+      {
+        "term": "catalog",
+        "definition": "A named container within Portfolio Server that organizes and stores digital assets.",
+        "type": "noun"
+      },
+      {
+        "term": "asset",
+        "definition": "A digital file (image, video, document, font, etc.) stored and managed within a Portfolio catalog.",
+        "type": "noun"
+      },
+      {
+        "term": "metadata",
+        "definition": "Descriptive information attached to an asset, such as keywords, creator, dates, dimensions, and custom fields.",
+        "type": "noun"
+      },
+      {
+        "term": "catalog_id",
+        "definition": "A unique string identifier referencing a specific Portfolio catalog.",
+        "type": "identifier"
+      },
+      {
+        "term": "asset_id",
+        "definition": "A unique string identifier referencing a specific digital asset within a catalog.",
+        "type": "identifier"
+      },
+      {
+        "term": "DAM",
+        "definition": "Digital Asset Management — the practice of organizing, storing, and distributing digital media files.",
+        "type": "acronym"
+      },
+      {
+        "term": "Portfolio",
+        "definition": "Extensis Portfolio is a digital asset management product that provides catalog-based storage and REST API access to assets.",
+        "type": "product"
+      },
+      {
+        "term": "search",
+        "definition": "A query operation that filters assets within a catalog by keyword, metadata field values, or date ranges.",
+        "type": "verb"
+      },
+      {
+        "term": "apiKey",
+        "definition": "An authentication token passed in the Authorization HTTP header to authenticate API requests.",
+        "type": "security"
+      }
+    ]
+  }
+}

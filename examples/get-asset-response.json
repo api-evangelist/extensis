@@ -1,0 +1,15 @@
+{
+  "id": "asset-abc123",
+  "name": "hero-banner-2024.png",
+  "type": "image/png",
+  "metadata": {
+    "width": 1920,
+    "height": 1080,
+    "colorSpace": "sRGB",
+    "fileSize": 2048576,
+    "createdDate": "2024-03-15T10:30:00Z",
+    "modifiedDate": "2024-03-20T14:45:00Z",
+    "keywords": ["banner", "hero", "marketing"],
+    "creator": "Design Team"
+  }
+}

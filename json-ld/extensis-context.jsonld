@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "extensis": "https://www.extensis.com/ns/",
+    "portfolio": "https://portfolio.extensis.com/api/v1/",
+    "catalog": {
+      "@id": "extensis:Catalog",
+      "@type": "@id"
+    },
+    "asset": {
+      "@id": "extensis:Asset",
+      "@type": "@id"
+    },
+    "catalog_id": {
+      "@id": "extensis:catalogId",
+      "@type": "xsd:string"
+    },
+    "asset_id": {
+      "@id": "extensis:assetId",
+      "@type": "xsd:string"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "type": "schema:fileFormat",
+    "metadata": "schema:additionalProperty",
+    "id": "@id",
+    "catalogs": {
+      "@id": "extensis:hasCatalog",
+      "@container": "@set"
+    },
+    "assets": {
+      "@id": "extensis:hasAsset",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "creator": "schema:creator",
+    "fileSize": "schema:contentSize",
+    "width": "schema:width",
+    "height": "schema:height",
+    "createdDate": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:dateTime"
+    },
+    "modifiedDate": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  }
+}

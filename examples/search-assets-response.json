@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "id": "asset-abc123",
+      "name": "hero-banner-2024.png",
+      "type": "image/png",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "fileSize": 2048576,
+        "keywords": ["banner", "hero", "marketing"]
+      }
+    },
+    {
+      "id": "asset-def456",
+      "name": "hero-banner-mobile.png",
+      "type": "image/png",
+      "metadata": {
+        "width": 768,
+        "height": 1024,
+        "fileSize": 1024288,
+        "keywords": ["banner", "hero", "mobile", "marketing"]
+      }
+    }
+  ]
+}

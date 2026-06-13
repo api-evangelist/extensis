@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/extensis/main/json-schema/error-response.json",
+  "title": "ErrorResponse",
+  "description": "Standard error response from the Extensis Portfolio API.",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["error"],
+      "description": "Status indicator, always 'error' for error responses."
+    },
+    "code": {
+      "type": "string",
+      "description": "Machine-readable error code."
+    },
+    "message": {
+      "type": "string",
+      "description": "Human-readable description of the error."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/extensis/main/json-schema/catalog.json",
+  "title": "Catalog",
+  "description": "An Extensis Portfolio catalog containing digital assets.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the catalog."
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the catalog."
+    }
+  }
+}

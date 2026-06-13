@@ -30,6 +30,8 @@ apis:
         url: https://www.extensis.com/support/developers
       - type: OpenAPI
         url: https://doc.extensis.com/api/portfolio/rest/index.html
+      - type: OpenAPI
+        url: openapi/extensis-portfolio-openapi.json
       - type: ScriptingDocumentation
         url: https://doc.extensis.com/api/portfolio-scripting/script-interface/script-interface/index.html
       - type: GitHubRepository

@@ -1,0 +1,16 @@
+{
+  "catalogs": [
+    {
+      "id": "catalog-001",
+      "name": "Marketing Assets"
+    },
+    {
+      "id": "catalog-002",
+      "name": "Brand Guidelines"
+    },
+    {
+      "id": "catalog-003",
+      "name": "Product Photography"
+    }
+  ]
+}

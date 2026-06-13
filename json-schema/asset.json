@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/extensis/main/json-schema/asset.json",
+  "title": "Asset",
+  "description": "A digital asset in an Extensis Portfolio catalog.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the asset."
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the asset."
+    },
+    "type": {
+      "type": "string",
+      "description": "Type or media category of the asset."
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional metadata properties for the asset.",
+      "additionalProperties": true
+    }
+  }
+}
