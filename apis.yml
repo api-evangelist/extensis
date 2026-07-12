@@ -41,6 +41,12 @@ apis:
 
 common:
 
+  - type: TrustCenter
+    url: security/extensis-trust-center.yml
+  - type: DomainSecurity
+    url: security/extensis-domain-security.yml
+  - type: Authentication
+    url: authentication/extensis-authentication.yml
   - type: Website
     url: https://www.extensis.com/
 
