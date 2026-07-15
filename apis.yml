@@ -41,6 +41,8 @@ apis:
 
 common:
 
+  - type: AgenticAccess
+    url: agentic-access/extensis-agentic-access.yml
   - type: TrustCenter
     url: security/extensis-trust-center.yml
   - type: DomainSecurity
