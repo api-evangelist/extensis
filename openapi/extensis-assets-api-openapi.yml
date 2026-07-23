@@ -1,0 +1,119 @@
+openapi: 3.0.3
+info:
+  title: Extensis Portfolio Assets API
+  version: 1.0.0
+  description: Extensis Portfolio REST API for digital asset management, including catalog management, asset metadata, and file operations.
+  x-jentic-source-url: https://www.extensis.com/support/developers
+  contact: {}
+servers:
+- url: https://portfolio.extensis.com/api/v1
+security:
+- apiKey: []
+tags:
+- name: Assets
+paths:
+  /catalogs/{catalog_id}/assets:
+    get:
+      operationId: listAssets
+      summary: List assets in catalog
+      tags:
+      - Assets
+      parameters:
+      - name: catalog_id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AssetList'
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: List assets in catalog
+  /catalogs/{catalog_id}/assets/{asset_id}:
+    get:
+      operationId: getAsset
+      summary: Get asset
+      tags:
+      - Assets
+      parameters:
+      - name: catalog_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: asset_id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Asset'
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: Get asset
+components:
+  schemas:
+    Asset:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          type: string
+        metadata:
+          type: object
+    ErrorResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum:
+          - error
+        code:
+          type: string
+        message:
+          type: string
+    AssetList:
+      type: object
+      properties:
+        assets:
+          type: array
+          items:
+            $ref: '#/components/schemas/Asset'
+  securitySchemes:
+    apiKey:
+      type: apiKey
+      in: header
+      name: Authorization
