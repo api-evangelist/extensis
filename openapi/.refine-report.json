@@ -1,0 +1,18 @@
+{
+  "provider": "extensis",
+  "sources": [
+    "extensis-assets-api-openapi.yml",
+    "extensis-catalogs-api-openapi.yml",
+    "extensis-search-api-openapi.yml"
+  ],
+  "outputs": [
+    "extensis-assets-api-openapi.yml",
+    "extensis-catalogs-api-openapi.yml",
+    "extensis-search-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
