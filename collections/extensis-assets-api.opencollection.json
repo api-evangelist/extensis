@@ -1,0 +1,67 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Extensis Portfolio Assets API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Assets",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List assets in catalog",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://portfolio.extensis.com/api/v1/catalogs/:catalog_id/assets",
+            "params": [
+              {
+                "name": "catalog_id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List assets in catalog"
+        },
+        {
+          "info": {
+            "name": "Get asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://portfolio.extensis.com/api/v1/catalogs/:catalog_id/assets/:asset_id",
+            "params": [
+              {
+                "name": "catalog_id",
+                "value": "",
+                "type": "path"
+              },
+              {
+                "name": "asset_id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get asset"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
