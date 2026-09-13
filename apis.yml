@@ -39,6 +39,12 @@ tags:
   - Creative Assets
   - Font Licensing
   - Design Workflows
+tags_raw:
+  - Digital Asset Management
+  - Font Management
+  - Creative Assets
+  - Font Licensing
+  - Design Workflows
   - DAM
 apis:
 - aid: extensis:extensis-assets-api
