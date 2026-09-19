@@ -72,6 +72,8 @@ apis:
   humanURL: https://www.extensis.com/support/developers
   baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
   tags:
+  - Catalog
+  tags_raw:
   - Catalogs
   properties:
   - type: OpenAPI
