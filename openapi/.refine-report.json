@@ -1,9 +1,7 @@
 {
   "provider": "extensis",
   "sources": [
-    "extensis-assets-api-openapi.yml",
-    "extensis-catalogs-api-openapi.yml",
-    "extensis-search-api-openapi.yml"
+    "_original/extensis-portfolio-openapi.json"
   ],
   "outputs": [
     "extensis-assets-api-openapi.yml",
@@ -13,6 +11,14 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "extensis-portfolio-openapi.json: upgraded openapi 3.0.3 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "extensis-assets-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "extensis-catalogs-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "extensis-search-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

@@ -1,4 +1,4 @@
-openapi: 3.0.3
+openapi: 3.2.0
 info:
   title: Extensis Portfolio Assets API
   version: 1.0.0
@@ -43,7 +43,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
-      description: List assets in catalog
   /catalogs/{catalog_id}/assets/{asset_id}:
     get:
       operationId: getAsset
@@ -80,7 +79,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
-      description: Get asset
 components:
   schemas:
     Asset:
