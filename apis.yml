@@ -2,17 +2,21 @@ aid: extensis
 name: Extensis
 description: Digital asset and font management platform with a REST API for organizing and distributing creative assets, managing font licenses, and integrating with design workflows
 deliveryModel:
-  model: unknown
+  model: saas
+  license_evidence:
+    not_product:
+    - tomasc/extensis_portfolio
+    - wags/portfolioresttoken
   open_source: unknown
   commercial: true
   callable_host: true
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
   - openapi
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: paid
