@@ -62,6 +62,13 @@ components:
           type: string
         metadata:
           type: object
+    AssetList:
+      type: object
+      properties:
+        assets:
+          type: array
+          items:
+            $ref: '#/components/schemas/Asset'
     ErrorResponse:
       type: object
       properties:
@@ -73,13 +80,6 @@ components:
           type: string
         message:
           type: string
-    AssetList:
-      type: object
-      properties:
-        assets:
-          type: array
-          items:
-            $ref: '#/components/schemas/Asset'
   securitySchemes:
     apiKey:
       type: apiKey

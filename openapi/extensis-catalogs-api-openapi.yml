@@ -39,6 +39,13 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
 components:
   schemas:
+    CatalogList:
+      type: object
+      properties:
+        catalogs:
+          type: array
+          items:
+            type: object
     ErrorResponse:
       type: object
       properties:
@@ -50,13 +57,6 @@ components:
           type: string
         message:
           type: string
-    CatalogList:
-      type: object
-      properties:
-        catalogs:
-          type: array
-          items:
-            type: object
   securitySchemes:
     apiKey:
       type: apiKey
