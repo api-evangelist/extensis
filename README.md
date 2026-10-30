@@ -1,4 +1,4 @@
-# Extensis (extensis)
+# Extensis
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,151 @@
 
 Digital asset and font management platform with a REST API for organizing and distributing creative assets, managing font licenses, and integrating with design workflows
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/apis.yml)
+**Areas:** Digital Asset Management · Font Management · Creative Assets · Font Licensing · Design Workflows
 
-## Tags
+## Extensis on APIs.io
 
-- Digital Asset Management
-- Font Management
-- Creative Assets
-- Font Licensing
-- Design Workflows
-- DAM
+Everything profiled for Extensis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/extensis/](https://apis.io/providers/extensis/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (3)
 
-- **Created:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
-- **Modified:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
+- [Extensis Assets API](https://apis.io/apis/extensis/extensis-assets-api/) — The Assets API from Extensis — 2 operation(s) for assets.
+- [Extensis Catalogs API](https://apis.io/apis/extensis/extensis-catalogs-api/) — The Catalogs API from Extensis — 1 operation(s) for catalogs.
+- [Extensis Search API](https://apis.io/apis/extensis/extensis-search-api/) — The Search API from Extensis — 1 operation(s) for search.
 
-## APIs
+### Published properties
 
-### Extensis Portfolio REST API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-REST API for integrating Portfolio DAM catalogs, asset metadata, and media processing into business systems, custom workflows, and web infrastructures. Available as a licensed add-on to Portfolio Server.
+#### Agentic access (1)
 
-- **Human URL:** [https://www.extensis.com/support/developers](https://www.extensis.com/support/developers)
-- **Base URL:** `https://doc.extensis.com/api/portfolio/rest/index.html`
+Which operations an agent can call, which act, and which need a human in the loop.
 
-#### Tags
+- [Extensis Agentic Access](https://apis.io/agentic-access/extensis/extensis-agentic-access/)
 
-- Digital Asset Management
-- Portfolio
-- Media Processing
-- REST API
+#### JSON Schema (3)
 
-#### Properties
+The data models the API reads and writes.
 
-- [Documentation](https://www.extensis.com/support/developers)
-- [OpenAPI](https://doc.extensis.com/api/portfolio/rest/index.html) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [OpenAPI](openapi/extensis-portfolio-openapi.json) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Scripting Documentation](https://doc.extensis.com/api/portfolio-scripting/script-interface/script-interface/index.html)
-- [GitHub Repository](https://github.com/wags/PortfolioRestToken)
-- [GitHub Repository](https://github.com/tomasc/extensis_portfolio)
+- [Asset](https://apis.io/schemas/extensis/asset/)
+- [Catalog](https://apis.io/schemas/extensis/catalog/)
+- [ErrorResponse](https://apis.io/schemas/extensis/error-response/)
 
-## Common Properties
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Extensis Context](https://apis.io/jsonld/extensis/extensis-context/)
+
+#### Examples (4)
+
+Example requests and responses.
+
+- [Get Asset Response](https://apis.io/examples/extensis/get-asset-response/)
+- [List Catalogs Response](https://apis.io/examples/extensis/list-catalogs-response/)
+- [Search Assets Request](https://apis.io/examples/extensis/search-assets-request/)
+- [Search Assets Response](https://apis.io/examples/extensis/search-assets-response/)
+
+#### Collections (3)
+
+Postman and Open Collection request collections.
+
+- [Extensis Portfolio Assets API](https://apis.io/collections/extensis/open-extensis-assets-api/)
+- [Extensis Portfolio Assets Catalogs API](https://apis.io/collections/extensis/open-extensis-catalogs-api/)
+- [Extensis Portfolio Assets Search API](https://apis.io/collections/extensis/open-extensis-search-api/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Extensis — jsonschema rules](https://apis.io/rules/extensis/extensis-jsonschema-spectral-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Extensis Authentication](https://apis.io/security/extensis/extensis-authentication/)
+- [Extensis Domain Security](https://apis.io/security/extensis/extensis-domain-security/)
+- [Extensis Trust Center](https://apis.io/security/extensis/extensis-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Extensis Plans Pricing](https://apis.io/plans/extensis/extensis-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Extensis Rate Limits](https://apis.io/rate-limits/extensis/extensis-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Extensis Finops](https://apis.io/finops/extensis/extensis-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.extensis.com/)
 - [Documentation](https://www.extensis.com/support/developers)
-- [Git Hub Org](https://github.com/wags)
-- [LinkedIn](https://www.linkedin.com/company/extensis/)
-- [Blog](https://www.extensis.com/blog)
 - [Pricing](https://www.extensis.com/)
-- [Status Page](https://status.extensis.com/)
-- [X (Twitter)](https://twitter.com/extensis)
-- [Newsroom](https://www.extensis.com/newsroom)
 - [Support](https://www.extensis.com/help-and-support)
-- [Plans](plans/extensis-plans-pricing.yml)
-- [Rate Limits](rate-limits/extensis-rate-limits.yml)
-- [Fin Ops](finops/extensis-finops.yml)
+- [Blog](https://www.extensis.com/blog)
+- [Status](https://status.extensis.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 33.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.0 |
+| Contract quality | 49.5 |
+| Contract governance | 9.8 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 26.3 |
+
+**Agent readiness 23.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/extensis/](https://apis.io/providers/extensis/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Extensis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/extensis/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
